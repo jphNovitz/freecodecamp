@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+   min-height: 40vh !important;
+   height: 40vh;
+   background-image: url(https://images.unsplash.com/photo-1492086517200-9393d4eb53bf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=3b353c68835784b25bf38ea4b9d20158);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 1px 50%;
+   border-radius: 8px;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    background: transparent;
+    color: rgb(255,255,0);
+    margin-top: 10vh;
+    font-size: 4.5rem;
+    
+}
+
+#left {
+    min-height: 50vh;
+    border-right: solid 6px #FFFF00;
+}
+
+#left img {
+    width: 170px;
+}
+#right {
+    min-height: 50vh;
+    border-left: solid 2px #800080;
+    
+}
+
+#right p {
+    font-size: 1.2em;
+}
+
+#right p:first-letter {
+    font-size: 1.8em;
+}
