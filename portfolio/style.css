@@ -1,0 +1,43 @@
+.top{
+    background-image: url(img/bg_sacou_01.jpg);
+    background-position: left bottom;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.top .header{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(255, 255, 255, .75)
+}
+
+.top .header #logo{
+    border: solid 2px green;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    display: inline-block;
+    font-size: 3em;
+    padding: .7em 0;
+    background-color: rgba(144, 238, 144, 0.1);
+    color: green;
+    margin: 1em auto;
+    transition: all 1s ease;
+}
+.top .header #logo:hover{
+    transform: rotate(720deg);
+}
+
+.top .header h1, .top .header a{
+    background-color: inherit;
+    color: darkgreen;
+}
+
+.top .header p{
+    font-size: 1.1em;
+    font-weight: 600;
+}
